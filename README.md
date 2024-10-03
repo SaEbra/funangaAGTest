@@ -37,4 +37,6 @@ Funanga AG Test is a PHP-based web application that allows users to register and
     ```
 
 3. **Run the Server**:
-   php -S localhost:8000
+    ```bash
+        php -S localhost:8000
+   ```
