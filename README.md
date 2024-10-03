@@ -15,21 +15,26 @@ Funanga AG Test is a PHP-based web application that allows users to register and
 
 ## Installation
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/SaEbra/funangaAGTest.git
-   cd funangaAGTest
-
-
+    ```bash
+        git clone https://github.com/SaEbra/funangaAGTest.git 
+    ```
+    ```bash
+        cd funangaAGTest
+    ```
 2. **Create mysql database**:
    create Mysql Data base name "ag_test"
-
+    ```bash
+        CREATE DATABASE ag_test;
+   ```
    create table "users"
-   CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL
-    );
+   ```bash
+        CREATE TABLE users (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            username VARCHAR(50) NOT NULL,
+            email VARCHAR(100) NOT NULL UNIQUE,
+            password VARCHAR(255) NOT NULL
+        );
+    ```
 
 3. **Run the Server**:
    php -S localhost:8000
